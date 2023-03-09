@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.AMAZON" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#231f20</item>
+        <item name="colorPrimaryVariant">#231f20</item>
+        <item name="colorOnPrimary">#231f20</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#231f20</item>
+        <item name="colorSecondaryVariant">#231f20</item>
+        <item name="colorOnSecondary">#231f20</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- Customize your theme here. -->
+        <item name="listPreferredItemHeightSmall">40dp</item>
+
+    </style>
+
+    <style name="Theme.AMAZON.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+    <style  name="splashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">#010101</item>
+
+    </style>
+
+    <style name="Theme.AMAZON.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.AMAZON.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

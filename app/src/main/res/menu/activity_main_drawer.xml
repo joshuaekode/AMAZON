@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+<item android:title="Main">
+    <menu>
+    <group  android:id="@+id/group_main"
+            android:checkableBehavior="single"
+            android:menuCategory="secondary"
+
+            android:orderInCategory="1">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="HOME" />
+        <item
+            android:id="@+id/nav_deals"
+            android:icon="@drawable/ic_deals"
+            android:title="DEALS" />
+        <item
+            android:id="@+id/nav_amazon_basics"
+            android:icon="@drawable/ic_basics"
+            android:title="AMAZON BASICS" />
+    </group>
+    </menu>
+</item>
+
+    <item android:title="Intermediate">
+        <menu>
+
+    <group  android:id="@+id/group_intermediate"
+            android:checkableBehavior="single"
+            android:menuCategory="secondary"
+            android:orderInCategory="1">
+        <item
+            android:id="@+id/nav_bestsellers"
+            android:icon="@drawable/ic_bestseller"
+            android:title="BEST SELLERS" />
+        <item
+            android:id="@+id/nav_video"
+            android:icon="@drawable/ic_video"
+            android:title="VIDEO" />
+        <item
+            android:id="@+id/nav_livestreams"
+            android:icon="@drawable/ic_livestreaming"
+            android:title="LIVESTREAMS" />
+    </group>
+        </menu>
+    </item>
+
+    <item android:title="Basic">
+        <menu>
+
+    <group  android:id="@+id/group_bottom"
+            android:checkableBehavior="single"
+            android:menuCategory="secondary"
+            android:orderInCategory="1">
+        <item
+            android:id="@+id/nav_newreleases"
+            android:icon="@drawable/ic_newrelease"
+            android:title="NEW RELEASES" />
+        <item
+            android:id="@+id/nav_books"
+            android:icon="@drawable/ic_books"
+            android:title="BOOKS" />
+        <item
+            android:id="@+id/nav_healthandhousehold"
+            android:icon="@drawable/ic_health"
+            android:title="HEALTH AND HOUSEHOLD" />
+    </group>
+</menu>
+    </item>
+</menu>

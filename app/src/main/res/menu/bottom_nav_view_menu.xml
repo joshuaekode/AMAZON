@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_giftcards"
+        android:title="GIFT CARDS"
+        android:icon="@drawable/ic_giftcard"/>
+
+    <item android:id="@+id/nav_music"
+        android:title="MUSIC"
+        android:icon="@drawable/ic_music"/>
+
+    <item android:id="@+id/nav_lists"
+        android:title="LISTS"
+        android:icon="@drawable/ic_lists"/>
+
+    <item android:id="@+id/nav_home"
+        android:title="HOME"
+        android:icon="@drawable/ic_home"/>
+
+
+</menu>

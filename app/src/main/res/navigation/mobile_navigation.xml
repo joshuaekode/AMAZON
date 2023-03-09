@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.josh.amazon.ui.home.HomeFragment"
+        android:label="HOME"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_deals"
+        android:name="com.josh.amazon.ui.gallery.GalleryFragment"
+        android:label="DEALS"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_amazon_basics"
+        android:name="com.josh.amazon.ui.slideshow.SlideshowFragment"
+        android:label="AMAZON BASICS"
+        tools:layout="@layout/fragment_slideshow" />
+    <fragment
+        android:id="@+id/nav_bestsellers"
+        android:name="com.josh.amazon.bestsellersFragment"
+        android:label="BEST SELLERS"
+        tools:layout="@layout/fragment_bestsellers" />
+    <fragment
+        android:id="@+id/nav_video"
+        android:name="com.josh.amazon.videoFragment"
+        android:label="VIDEO"
+        tools:layout="@layout/fragment_video" />
+    <fragment
+        android:id="@+id/nav_livestreams"
+        android:name="com.josh.amazon.livestreamsFragment"
+        android:label="LIVESTREAMS"
+        tools:layout="@layout/fragment_livestreams" />
+    <fragment
+        android:id="@+id/nav_newreleases"
+        android:name="com.josh.amazon.newreleasesFragment"
+        android:label="NEW RELEASES"
+        tools:layout="@layout/fragment_newreleases" />
+    <fragment
+        android:id="@+id/nav_books"
+        android:name="com.josh.amazon.booksFragment"
+        android:label="BOOKS"
+        tools:layout="@layout/fragment_books" />
+    <fragment
+        android:id="@+id/nav_healthandhousehold"
+        android:name="com.josh.amazon.healthandhouseholdFragment"
+        android:label="HEALTH AND HOUSEHOLD"
+        tools:layout="@layout/fragment_healthandhousehold" />
+    <fragment
+        android:id="@+id/nav_giftcards"
+        android:name="com.josh.amazon.ui.giftcards.giftcardsFragment"
+        android:label="GIFTCARDS"
+        tools:layout="@layout/fragment_giftcards" />
+    <fragment
+        android:id="@+id/nav_music"
+        android:name="com.josh.amazon.ui.music.musicFragment"
+        android:label="MUSIC"
+        tools:layout="@layout/fragment_music" />
+    <fragment
+        android:id="@+id/nav_lists"
+        android:name="com.josh.amazon.ui.lists.listsFragment"
+        android:label="LISTS"
+        tools:layout="@layout/fragment_lists" />
+</navigation>
